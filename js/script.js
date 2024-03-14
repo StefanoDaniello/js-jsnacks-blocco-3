@@ -29,20 +29,11 @@ console.log(array,sommma)
 */
 
 
-// da rifare!!!!
-
+/*
 let N =parseInt(prompt('inserisci un numero'));
  
-for (let i = 0; i<N ; i++){
-    const result = prova()
-    console.log();
-}
 
 
-
-function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) ) + min;
-}
 
 function prova(){
     const newArray =[];
@@ -52,8 +43,15 @@ function prova(){
     return newArray;
 }
 
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
-
+for (let i = 0; i<N ; i++){
+    const result = prova()
+    console.log(result);
+}
+*/
 
 /*
 let N =parseInt(prompt('inserisci un numero'));
